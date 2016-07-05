@@ -12,14 +12,21 @@ header{
 
 }
 #head{
-
+    background-color: #d2ba83;
 }
-#head h1{
 
-}
 
 
 footer{
 background-color: #443e40;
     clear: both;
+
+}
+footer h3{
+
+    color: white;
+    font-family: sansgit;
+}
+footer a{
+    color: #989192;
 }
