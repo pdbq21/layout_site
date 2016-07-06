@@ -21,28 +21,29 @@
 
 <header><!--  branding and navigation  -->
     <!-- header -->
-    <div class="container" id="head">
+    <div class="container-fluid" id="top">
         <div class="row">
-            <div class="col-lg-12">
-                <p>Free Shipping on All Orders over &#163;100 | Customer Service: 833-931-1343</p>
-                <a href="#">SEE DETAILS</a>
+            <div class="col-lg-12 text-center">
+                <p>Free Shipping on All Orders over &#163;100 | Customer Service: 833-931-1343 <a href="#">SEE
+                    DETAILS</a></p>
             </div>
         </div>
 
     </div>
 
     <section><!-- search (l)/ logo (c) / login (r) -->
-        <div class="container">
-            <div class="row">
+        <div class="container-fluid">
+            <div class="row center-block" id="head">
                 <div class="col-md-4" id="search">
                     <form class="form-inline">
-                        <div class="form">
+                        <div class="form text-center">
                             <input type="search" class="form-control" placeholder="SEARCH">
+                            <em class="glyphicon glyphicon-search"></em>
                         </div>
                     </form>
                 </div>
 
-                <div class="col-md-4" id="logo">
+                <div class="col-md-4 text-center" id="logo">
                     <img src="log.png" alt="">
                 </div>
                 <div class="col-md-4" id="login">
@@ -58,154 +59,422 @@
 
 
     </section>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Sale</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Gift cards</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-    </nav>
+    <div class="container-fluid border">
+        <div class="row text-center">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Sale</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Gift cards</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
 </header>
 <main>
     <article><!-- slider -->
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <img src="img.png" alt="">
+            <br>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="item active">
+                        <img src="img/dekor/1.jpg" alt="Chania" width="1170" height="660">
+                        <div class="carousel-caption">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3>Extra Chair Covers</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores
+                                        assumenda culpa et expedita facere inventore minus natus neque odit perspiciatis
+                                        provident, quod sapiente sint unde! Blanditiis eligendi excepturi nulla.</p>
+                                    <form class="form-inline">
+                                        <div class="form">
+                                            <button type="submit" class="btn btn-default">SHOP NOW</button>
+                                        </div>
+
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/dekor/2.jpg" alt="Chania" width="1170" height="660">
+                        <div class="carousel-caption">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3>Extra Chair Covers</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores
+                                        assumenda culpa et expedita facere inventore minus natus neque odit perspiciatis
+                                        provident, quod sapiente sint unde! Blanditiis eligendi excepturi nulla.</p>
+                                    <form class="form-inline">
+                                        <div class="form">
+                                            <button type="submit" class="btn btn-default">SHOP NOW</button>
+                                        </div>
+
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/dekor/3.jpg" alt="Flower" width="1170" height="660">
+                        <div class="carousel-caption">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3>Extra Chair Covers</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores
+                                        assumenda culpa et expedita facere inventore minus natus neque odit perspiciatis
+                                        provident, quod sapiente sint unde! Blanditiis eligendi excepturi nulla.</p>
+                                    <form class="form-inline">
+                                        <div class="form">
+                                            <button type="submit" class="btn btn-default">SHOP NOW</button>
+                                        </div>
+
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/dekor/4.jpg" alt="Flower" width="1170" height="660">
+                        <div class="carousel-caption">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3>Extra Chair Covers</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores
+                                        assumenda culpa et expedita facere inventore minus natus neque odit perspiciatis
+                                        provident, quod sapiente sint unde! Blanditiis eligendi excepturi nulla.</p>
+                                    <form class="form-inline">
+                                        <div class="form">
+                                            <button type="submit" class="btn btn-default">SHOP NOW</button>
+                                        </div>
+
+                                    </form>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
+
     </article>
     <article><!-- new arrivals -->
         <div class="container">
             <div class="row">
-
-                <h2>New Arrivals</h2>
-                <div class="col-md-12">
+                <div class="col-md-12" id="tag">
+                    <h2>New Arrivals</h2>
                     <ul>
-                        <li>All item</li>
-                        <li>Office</li>
-                        <li>Books &amp; Magazines</li>
-                        <li>Backpacks</li>
-                        <li>Children</li>
-                        <li>Outdoor</li>
+                        <li><a href="">All Items</a></li>
+                        <li><a href="">Office</a></li>
+                        <li><a href="">Books &amp; Magazines</a></li>
+                        <li><a href="">Backpacks</a></li>
+                        <li><a href="">Children</a></li>
+                        <li><a href="">Outdoor</a></li>
 
                         <li>All Collections</li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container fullitem">
             <div class="row">
-                <div class="col-md-4">
-                    <img src="img/Без%20назви.png" alt="">
-                    <spam class="nameItem">Purpule Fancy Dress</spam>
-                    <spam class="glyphicon glyphicon-heart"></spam>
-                    <spam class="brendItem">Boskke</spam>
-                    <spam class="priceItem">&#163;89.00</spam>
+                <div class="col-md-4 item">
+                    <img src="img/1.png" alt="">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="nameItem">Purpule Fancy Dress</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="glyphicon glyphicon-heart"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="brendItem">Boskke</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="priceItem">&#163;89.00</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
+
+                <div class="col-md-4 item">
                     <img src="img/2.png" alt="">
-                    <spam class="nameItem">Storage Jar</spam>
-                    <spam class="glyphicon glyphicon-heart"></spam>
-                    <spam class="brendItem">Hasami Porcelain</spam>
-                    <spam class="priceItem">&#163;54.95</spam>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="nameItem">Storage Jar</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="glyphicon glyphicon-heart"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="brendItem">Hasami Porcelain</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="priceItem">&#163;54.95</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 item">
                     <img src="img/3.png" alt="">
-                    <spam class="nameItem">Triple Boskke Cube</spam>
-                    <spam class="glyphicon glyphicon-heart"></spam>
-                    <spam class="brendItem">Great Art</spam>
-                    <spam class="priceItem">&#163;19.95</spam>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="nameItem">Triple Boskke Cube</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="glyphicon glyphicon-heart"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="brendItem">Great Art</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="priceItem">&#163;19.95</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 item">
                     <img src="img/4.png" alt="">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="nameItem">Issun Boshi</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="glyphicon glyphicon-heart"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="brendItem">Braun</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="priceItem">&#163;59.95</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 item">
                     <img src="img/5.png" alt="">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="nameItem">Dark scalet-shirt</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="glyphicon glyphicon-heart"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="brendItem">Boskke</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="priceItem">&#163;89.00</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 item">
                     <img src="img/6.png" alt="">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="nameItem">pointed toe pumps</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="glyphicon glyphicon-heart"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="brendItem">Hasami Porcelain</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="priceItem">&#163;39.99</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 item">
                     <img src="img/7.png" alt="">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="nameItem">Flecked wool blend coat</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="glyphicon glyphicon-heart"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="brendItem">Great Art</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="priceItem">&#163;55.99</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 item">
                     <img src="img/8.png" alt="">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="nameItem">Lace panel dress</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="glyphicon glyphicon-heart"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="brendItem">Braun</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="priceItem">&#163;89.00</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 item">
                     <img src="img/9.png" alt="">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="nameItem">Cotton cashmere blend coat</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="glyphicon glyphicon-heart"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="brendItem">Boskke</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="priceItem">&#163;89.00</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 item">
                     <img src="img/10.png" alt="">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="nameItem">Leather ballerinas</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="glyphicon glyphicon-heart"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="brendItem">Hasami Porcelain</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="priceItem">&#163;99.00</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 item">
                     <img src="img/11.png" alt="">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="nameItem">Triple Boskke Cube</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="glyphicon glyphicon-heart"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="brendItem">Great Art</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="priceItem">&#163;19.95</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 item">
                     <img src="img/12.png" alt="">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="nameItem">Issun Boshi</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="glyphicon glyphicon-heart"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="brendItem">Braun</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="priceItem">&#163;59.95</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>Loading more...</p>
+                </div>
+            </div>
         </div>
     </article>
-    <article><!-- instagram feed -->
-        <div class="container">
-            <div class="row">
-                <h2>Instagram Feed</h2>
-                <p>Find out how people have been experiencing this product. Tag yours with #intagram so we can feature
-                    it <a
-                            href="#">here</a>.</p>
-            </div>
+    <article id="instagram"><!-- instagram feed -->
+        <div class="container-fluid border">
+            <div class="container">
+                <div class="row text-center">
 
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="img/2-1.png" alt="">
-                </div>
-                <div class="col-md-3">
-                    <img src="img/2-2.png" alt="">
-                </div>
-                <div class="col-md-3">
-                    <img src="img/2-3.png" alt="">
-                </div>
-                <div class="col-md-3">
-                    <img src="img/2-4.png" alt="">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="img/2-5.png" alt="">
-                </div>
-                <div class="col-md-3">
-                    <img src="img/2-6.png" alt="">
-                </div>
-                <div class="col-md-3">
-                    <img src="img/2-7.png" alt="">
-                </div>
-                <div class="col-md-3">
-                    <img src="img/2-8.png" alt="">
-                </div>
-            </div>
-            <div class="row">
-                <form class="form-inline">
-                    <div class="form-group">
-                        <label for="exampleInputEmail2">NEWSLETTER SIGN UP</label>
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter your email">
-                        <button type="submit" class="btn btn-default">SUBSCRIBE</button>
+                    <h2>Instagram Feed</h2>
+                    <div class="col-md-12 text-center">
+                        <p>Find out how people have been experiencing this product. Tag yours </p>
+                        <p>with #intagram so we can
+                            feature
+                            it <a href="#">here</a>.</p>
                     </div>
+                </div>
 
-                </form>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="img/2-1.png" alt="">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/2-2.png" alt="">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/2-3.png" alt="">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/2-4.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="img/2-5.png" alt="">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/2-6.png" alt="">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/2-7.png" alt="">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/2-8.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <form class="form-inline">
+                        <div class="form-group text-center">
+                            <label for="exampleInputEmail2">NEWSLETTER SIGN UP</label>
+                            <input type="email" class="form-control" id="exampleInputEmail2"
+                                   placeholder="Enter your email">
+                            <button type="submit" class="btn btn-default">SUBSCRIBE</button>
+                        </div>
+
+                    </form>
+                </div>
             </div>
         </div>
     </article>
@@ -213,9 +482,7 @@
 </main>
 <footer><!-- contact info-->
     <div class="container">
-
         <div class="row">
-
             <div class="col-md-3">
                 <h3>My Account</h3>
                 <ul>
@@ -265,7 +532,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <ul>
+                <ul id="social">
                     <li><a href=""><img src="img/soc/p.png" alt=""></a></li>
                     <li><a href=""><img src="img/soc/f.png" alt=""></a></li>
                     <li><a href=""><img src="img/soc/t.png" alt=""></a></li>
@@ -275,20 +542,19 @@
                 </ul>
 
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p>© 2016 Best Mall. All rights reserved</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p><a href=""><img src="img/soc/paypal.png" alt=""></a></p>
-                </div>
+        </div>
+        <div class="row" id="copy">
+            <div class="col-md-12 text-center">
+                <span>© 2016 Best Mall. All rights reserved</span>
             </div>
         </div>
-
-
+        <div class="row text-center">
+            <div class="col-md-12">
+                <span><a href=""><img src="img/soc/paypal.png" alt=""></a></span>
+            </div>
+        </div>
     </div>
+
 
 </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

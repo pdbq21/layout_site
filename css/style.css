@@ -7,26 +7,392 @@ body{
 font: 100%/1.5em Arial, Helvetica,sans-serif;
     background-color: #ffffff;
 }
-header{
+#head .col-md-4{
 
-
+    top: 40%;
 }
-#head{
+#top{
     background-color: #d2ba83;
 }
+#top .text-center{
 
 
+    height: 4em;
+}
+#top p{
+    font-size: 1.5em;
+    color: white;
+    margin-top: 0.8em;
+}
+#top a{
+   color: #95793d;
+
+}
+#head {
+
+    height: 13em;
+}
+#search input{
+
+    border-radius: 2em;
+    height: 2em;
+    width: 17em;
+}
+.glyphicon-search{
+    position: relative;
+
+    margin-left: -3em;
+
+
+    color: darkgray;
+    display: inline-block;
+}
+#login li{
+
+    list-style: none;
+    display: inline-block;
+    font-size: 1.5em;
+    padding-right: 2em;
+}
+#login a{
+    color: #676064;
+
+}
+
+nav ul{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+nav li{
+    position: relative;
+    padding-top: 1em;
+    font-size: 1.9em;
+
+    font-family: -webkit-body;
+
+
+    display: inline-block;
+
+
+
+}
+nav li a{
+    color: #1a1a1a;
+    padding: 0.85em 1em 0em 1em;
+}
+nav li a:hover{
+
+    color: #d5bf8d;
+    border-top: 1px solid #d5bf8d;
+    text-decoration: none;
+    padding-top: 0.85em;
+}
+nav li a:active{
+
+    color: #d5bf8d;
+    border-top: 1px solid #d5bf8d;
+    text-decoration: none;
+    padding-top: 0.85em;
+}
+nav li a:focus{
+    padding-top: 0.85em;
+    color: #d5bf8d;
+    border-top: 1px solid #d5bf8d;
+    text-decoration: none;
+}
+
+.border{
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+.border .text-center{
+    height: 5.5em;
+}
+
+h2{
+    font-size: 4em;
+    font-family: -webkit-body;
+}
+#tag li{
+    ist-style: none;
+    display: inline-block;
+    font-size: 1.7em;
+
+    padding: 0.3em 0.5em 0.3em 0.5em;
+
+    border: 1px solid white;
+}
+#tag li:hover{
+    border: 1px solid #fbc42c;
+}
+#tag li:active{
+    border: 1px solid #fbc42c;
+}
+#tag li:focus{
+    border: 1px solid #fbc42c;
+}
+#tag li a{
+
+    color: #676064;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+#tag li:last-child{
+    float: right;
+}
+
+
+#tag li a:hover{
+
+    color: #676064;
+
+    text-decoration: none;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+#tag li a:active{
+
+    color: #676064;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+
+}
+#tag li a:focus{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    color: #676064;
+
+    text-decoration: none;
+}
+
+/*slider*/
+#myCarousel{
+    width: inherit;
+
+}
+.carousel-indicators{
+
+    position: absolute;
+    bottom: 10px;
+    left: 3em;
+    top: 50%;
+    z-index: 15;
+    width: auto;
+margin-left: 0%;
+    list-style: none;
+}
+.carousel-indicators li{
+    display: block;
+    margin-bottom: 1em;
+background-color: #cbcbcb;
+    border: 0px;
+}
+.carousel-indicators .active{
+    background-color: #d2ba83;
+    margin-bottom: 1em;
+}
+.carousel-caption{
+    left: 38%;
+    right: 5%;
+    text-align: left;
+    text-shadow: none;
+}
+.carousel-caption .row{
+    background-color: #d2ba83;
+    opacity: 0.8;
+    width: auto;
+
+}
+.carousel-caption .row .col-md-12{
+    margin: 1em;
+    border: 1px solid white;
+    width: auto;
+
+}
+.carousel-caption .row .col-md-12 h3{
+    font-family: -webkit-body;
+    font-size: 3em;
+    font-weight: 600;
+}
+.carousel-caption .row .col-md-12 p{
+    font-size: 1.5em;
+    color: white;
+
+    text-align: justify;
+}
+.carousel-caption .row .col-md-12 .btn{
+    color: white;
+    background-color: #d2ba83;
+    border: 2px solid white;
+    margin-bottom: 1em;
+    font-style: normal;
+    border-radius: 0px;
+    font-weight: 600;
+    font-size: 1.6em;
+    padding: 0.5em 1em 0.5em 1em;
+
+}
+
+.item  span{
+
+    font-size: 1.5em;
+}
+.item .col-md-6{
+
+    margin-bottom: 1em;
+}
+.glyphicon-heart{
+    margin-left: 10em;
+
+}
+.nameItem{
+
+    font-family: -webkit-body;
+}
+.brendItem{
+    color: #676064;
+}
+.priceItem{
+    color: #d2ba83;
+    font-size: 1.6em;
+    font-weight: 600;
+    float: right;
+}
+.fullitem{
+    margin-bottom: 4em;
+}
+.fullitem .row{
+    display: -webkit-inline-box;
+}
+.fullitem .row .row{
+    display: block;
+
+}
+.fullitem .row:last-child{
+    margin-top: 3em;
+
+}
+.fullitem .row:last-child .col-md-12{
+    margin-left: 35em;
+
+}
+
+.fullitem .row:last-child p{
+color: black;
+
+}
+#instagram .row{
+    margin-bottom: 2em;
+    margin-top: 2em;
+
+}
+#instagram .row:first-child{
+    margin-top: 6em;
+
+}
+#instagram .row:first-child .col-md-12 {
+    margin-bottom: 3em;
+}
+#instagram .row:first-child h2 {
+    margin-bottom: 0.8em;
+}
+#instagram .row:first-child p {
+    margin-bottom: 1em;
+}
+#instagram .row:first-child p:last-child {
+    margin-bottom: 2em;
+}
+#instagram .row:last-child{
+    margin-top: 4em;
+    margin-bottom: 4em;
+
+}
 
 footer{
 background-color: #443e40;
     clear: both;
 
 }
+footer .container .row:first-child{
+    margin-top: 5em;
+}
+footer .container .row:first-child ul{
+
+    font-size: 1.3em;
+}
+footer .container .row:first-child ul li{
+    padding: 0.5em;
+}
 footer h3{
 
     color: white;
-    font-family: sansgit;
+font-family: -webkit-body;
 }
 footer a{
     color: #989192;
+}
+footer span{
+    color: #989192;
+}
+#social{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    margin-left: 45em;
+}
+
+#social li{
+    position: relative;
+    display: inline-block;
+    margin: 2em 1em 1em 1em;
+}
+
+#copy{
+    margin-bottom: 2em;
+}
+footer .row:last-child{
+    margin-bottom: 3em;
+}
+
+
+
+
+li{
+    list-style: none;
+}
+
+p{
+    color: #817c7f;
+    font-size: 1.5em;
+}
+
+p a{
+    color: #95793d;
+}
+.form-group .btn{
+    color: white;
+    background-color: #d2ba83;
+
+    font-style: normal;
+    border-radius: 0px;
+    font-weight: 600;
+    font-size: 1.6em;
+    padding: 1em 1em 1em 1em;
+}
+.form-group .form-control{
+    width: 41em;!important;
+    border-radius: 0px;
+    padding: 2em 1em 2em 1em;
+    margin-right: -9.4em;
+}
+.form-group label{
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-right: 2em;
+}
+.form-inline .form-group{
+    margin-left: 22em;
 }
